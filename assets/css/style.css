@@ -140,8 +140,7 @@ p {
   line-height: 1.8em;
   font-size: 15px;
   color: #777777;
-  letter-spacing: 0.03em;
-  text-transform: capitalize; }
+  letter-spacing: 0.03em; }
   p.landing-caption {
     font-size: 30px;
     line-height: 1.5; }
