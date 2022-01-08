@@ -1,506 +1,485 @@
-<!doctype html>
+
+
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.84.0">
-    <title>Home - LiquiChain</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
-
-
-
-    <!-- Bootstrap core CSS -->
-<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
-
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/carousel.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-  </head>
-  <body>
-
-<div class="slider-container">
-  <header>
-    <nav class="navbar navbar-expand-md">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-            <img src="assets/images/logo-white.svg" />
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav ms-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#sustainable-blockchain">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#footer">Support</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#blockchain-slow">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#blockchain-everywhere">Build</a>
-            </li>
-            <li class="nav-item">
-              <a class="btn btn-download btn-primary btn-rounded-circle" href="#our-team">Join us</a>
-            </li>
-           
-          </ul>
-        
+   <head>
+      <title>Liquichain | Blockchain is coming everywhere.</title>
+      <meta charset="utf-8">
+      <meta name="author" content="Liquichain">
+      <meta name="description" content="LiquiChain is a blockchain whose nodes form a graph of trust and proximity">
+      <meta name="keywords" content="LiquiChain,cryptocurrency,blockchain,miners,stackers,smart contract">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- Fav icon-->
+      <link rel="shortcut icon" href="./assets/images/favicon.png">
+      <!-- Font Family-->
+      <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+      <!-- Font Awesome-->
+      <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
+      <!-- Bootstrap CSS-->
+      <link rel="stylesheet" href="./assets/css/bootstrap.css">
+      <!-- Animation CSS-->
+      <link rel="stylesheet" href="./assets/css/animate.min.css">
+      <!-- Owl carousel css-->
+      <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+      <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+      <!-- Form validation css-->
+      <link rel="stylesheet" href="./assets/css/validation.css">
+      <!-- Style css-->
+      <link rel="stylesheet" href="./assets/css/style.css">
+      <!-- Responsive css-->
+      <link rel="stylesheet" href="./assets/css/responsive.css">
+   </head>
+   <body class="home-style three" data-spy="scroll" data-bs-target=".navbar" data-offset="80">
+      <!-- Preloader-->
+      <div class="loader-wrapper">
+         <div class="loader"></div>
+      </div>
+      <!-- Preloader end-->
+      <!-- Nav Start-->
+      <nav class="navbar navbar-expand-lg navbar-light theme-nav fixed-top">
+         <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="./assets/images/logo.svg" alt="Liquichain"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse default-nav" id="navbarSupportedContent">
+               <ul class="navbar-nav ms-auto" id="mymenu">
+                  <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#screenshot">APP</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#team">Join us</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#blockchain">Blockchain</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#use">Use case</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- Nav end-->
+      <!-- Features Section start-->
+      <section class="home home-three vertical-scrolling" id="home">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-5 col-sm-12 position-relative">
+                  <div class="home-contain">
+                     <div class="text-white">
+                        <div class="contain">
+                           <h2 class="title-home text-white">about <span>LiquiChain</span></h2>
+                           <h4 class="title mtop-20">LIQUICHAIN.</h4>
+                           <p class="slide-cap-desc">We are a sustainable blockchain based on communities enabling fast transactions and evolutive smart contracts.</p>
+                           <a href="#"><img class="store" src="./assets/images/app-store.png" alt="appstore"></a><a href="#"><img class="ms-10 store" src="./assets/images/play-store.png" alt="play-store"></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-sm-7 position-relative">
+                  <div class="home-right"><img class="img-fluid" data-tilt="" data-tilt-perspective="110" data-tilt-speed="400" data-tilt-max="1.2" src="./assets/images/f5.png" alt="slider-caption"></div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Features Section End-->
+      <!-- About Start-->
+      <section class="about" id="about">
+         <div class="about-decor decor">
+            <div class="about-circle1"><img src="./assets/images/team1.png" alt="team1"></div>
+            <div class="about-circle2"><img src="./assets/images/main-banner1.png" alt="banner1"></div>
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-5">
+                  <div class="about-contain">
+                     <div>
+                        <h2 class="title">A sustainable blockchain for the people in the <span>real world</span>.</h2>
+                           <p>Blockchain has raised environmental concerns. The energy consumption is huge and may cause increased carbon emissions and climate change. This causes other technological issues: blockchain is slow and transfers little. This issue is partially solved by the proof of stake (PoS), but this is not a radical change.</p>
+                        <p>Liquichain is a blockchain whose nodes form a graph of trust and proximity. It is designed to run smart contracts in a fast, secured, and low energy consumption way, allowing to implement crypto currency, mobile micropayment, voting systems, file sharing, business processes and more.</p>
+                        <p>Liquichain introduces a new Proof of Peers consensus mechanisms.s</p>
+                        <div class="top-margin">
+                           <button class="btn btn-custom theme-color theme-color" type="button">Download our Whitepaper</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-7 d-medium-none">
+                  <div class="about-right">
+                     <div class="about-phone"><img class="img-fluid" src="./assets/images/f3.png" data-tilt="" data-tilt-perspective="110" data-tilt-speed="400" data-tilt-max="1.2" alt="about us"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- About End-->
+      <!-- Section Start-->
+      <section class="team" id="features">
+         <div class="team-decor decor">
+            <div class="team-circle1"><img src="./assets/images/team1.png" alt=""></div>
+            <div class="team-circle2"><img src="./assets/images/team3.png" alt=""></div>
+            <div class="team-circle3"><img src="./assets/images/team.png" alt=""></div>
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="col-12 col-md-6">
+                  <div class="col-sm-12">
+                     <h2 class="title">A new model: <span>Proof of Peers</span>.</h2>
+                  </div>
+                  <p>Nodes can only join if their identity is validated by peers. When a transaction is to be performed between 2 nodes, a set of trust paths are created and the transaction is signed along the paths, avoiding involvement of majority of nodes and delay of block forging. Due to the <strong>very fast and low consumption of smart contract</strong> engine each node in the system is active (no such thing as difference between miners and clients). Smart contracts are versioned: they contains the voting rules necessary to upgrade their definition.</p>
+               </div>
+               <div class="col-12 col-md-6 sm-m-top">
+                  <div class="about-phone"><img class="img-fluid" src="./assets/images/f6.png" data-tilt="" data-tilt-perspective="110" data-tilt-speed="600" data-tilt-max="2.2" alt="LiquiChain"></div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Section End-->
+      <!-- Screenshot Section SStart-->
+      <section class="screenshot padding-top-bottom" id="screenshot">
+         <div class="screenshot-decor decor">
+            <div class="screenshot-circle1"><img src="./assets/images/feature-circle-two.png" alt="feature-circle-two"></div>
+            <div class="screenshot-circle2"><img src="./assets/images/feature-circle.png" alt="feature-circle"></div>
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <h2 class="title">Cryptocurrency has raised environmental <span>environmental</span> concerns.</h2>
+               </div>
+               <div class="col-sm-12">
+                  <div class="screenshot-contain">
+                     <img class="mobile-light-left" src="./assets/images/light.png" alt="light"><img class="mob-mocup img-fluid" src="./assets/images/screenshot-mob.png" alt="screenshot-mob"><img class="mobile-light-right" src="./assets/images/light-right.png" alt="light-right">
+                     <div class="screenshot-carousel owl-carousel owl-theme">
+                        <div class="screenshot-item"><img src="./assets/images/app/1.jpg" alt="app"></div>
+                        <div class="screenshot-item"><img src="./assets/images/app/1.jpg" alt="app"></div>
+                        <div class="screenshot-item"><img src="./assets/images/app/1.jpg" alt="app"></div>
+                        <div class="screenshot-item"><img src="./assets/images/app/1.jpg" alt="app"></div>
+                        <div class="screenshot-item"><img src="./assets/images/app/1.jpg" alt="app"></div>
+                        <div class="screenshot-item"><img src="./assets/images/app/1.jpg" alt="app"></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-12">
+                  <p>The energy consumption of cryptocurrency mining is around 0.6% of the global electricity production, roughly around the total consumption of Malaysia or Sweden! 1 and may cause increased carbon emissions and climate change.</p>
+                  <p>This issue is partially solved by the proof of stake (PoS). Because miners do not need to solve extremely complex puzzles to prove their work on PoS blockchains, the required processing power is much lower.</p>
+                  <p>But this is not a radical change. Most of blockchain platforms still rely on complex systems that need high-availability servers to operate. De facto, they can’t ensure network optimization and efficiency.</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Screenshot Section End-->
+      <!-- About Section start-->
+      <section class="feature" id="team">
+         <div class="feature-decor decor">
+            <div class="feature-circle1"><img src="./assets/images/feature2.png" alt=""></div>
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="feature-phone"><img class="img-fluid" src="./assets/images/f7.png" data-tilt="" data-tilt-perspective="140" data-tilt-speed="600" data-tilt-max="1.6" alt=""></div>
+               <div class="offset-lg-4 col-lg-8">
+                  <div class="row">
+                     <div class="col-sm-12 mrgn-md-top">
+                        <h2 class="title">A blockchain based on <span>communities</span>.</h2>
+                     </div>
+                     <div class="col-12 col-md-6">
+                        <ul class="feature-style">
+                           <li>
+                              <div class="feature-icon"><img src="./assets/images/icon/1.png" alt="icon"></div>
+                              <div class="feature-subtitle">
+                                 <h3>speed</h3>
+                              </div>
+                              <div>
+                                 <p>By redesigning trust path among peers, replicating states only in a small number of nodes and allowing partial storage of these states, we allow smart contracts to be executed much faster </p>
+                              </div>
+                           </li>
+                           <li>
+                              <div class="feature-icon"><img src="./assets/images/icon/3.png" alt="icon"></div>
+                              <div class="feature-subtitle">
+                                 <h3>no cost transaction</h3>
+                              </div>
+                              <div>
+                                 <p>Each user is a potential green “miner of resources” and can decide the mining fees for the usage of his resources. In most communities, it will be zero gas fee.</p>
+                              </div>
+                           </li>
+                           <li>
+                              <div class="feature-icon"><img src="./assets/images/icon/5.png" alt="icon"></div>
+                              <div class="feature-subtitle">
+                                 <h3>extended smart contracts</h3>
+                              </div>
+                              <div>
+                                 <p>We propose an extended notion of smart contract including not only the code executed in the blockchain but also the screens and business logic executed in the users' applications.</p>
+                              </div>
+                           </li>
+                           
+                        </ul>
+                        <div class="top-margin">
+                           <button class="btn btn-custom theme-color theme-color" type="button">BUILD ON LIQUICHAIN</button>
+                        </div>
+                     </div>
+                     <div class="col-12 col-md-6 sm-m-top">
+                        <ul class="feature-style">
+                           <li>
+                              <div class="feature-icon"><img src="./assets/images/icon/6.png" alt="icon"></div>
+                              <div class="feature-subtitle">
+                                 <h3>user experience</h3>
+                              </div>
+                              <div>
+                                 <p>Our wallet can be enhanced with unlimited DApps and mobile user-friendly key features like a unique secure backup of private keys.</p>
+                              </div>
+                           </li>
+                           <li>
+                              <div class="feature-icon"><img src="./assets/images/icon/4.png" alt="icon"></div>
+                              <div class="feature-subtitle">
+                                 <h3>Proven security</h3>
+                              </div>
+                              <div>
+                                 <p>Our founders have a strong experience in cybersecurity in strategic industries</p>
+                              </div>
+                           </li>
+                           <li>
+                              <div class="feature-icon"><img src="./assets/images/icon/2.png" alt="icon"></div>
+                              <div class="feature-subtitle">
+                                 <h3>Interoperability</h3>
+                              </div>
+                              <div>
+                                 <p>We want to facilitate the arrival of users from other popular chains thanks to multiple bridges</p>
+                              </div>
+                           </li>
+                           <li>
+                              <div class="feature-icon"><img src="./assets/images/icon/1.png" alt="icon"></div>
+                              <div class="feature-subtitle">
+                                 <h3>profile self-management</h3>
+                              </div>
+                              <div>
+                                 <p>Users can manage different accounts with different level of KYC (from full anonymity to more ID info), depending on the apps they use, what they share and with whom.</p>
+                              </div>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- About Section End-->
+      <!-- blog Section Start-->
+      <section class="blog position-relative" id="blockchain">
+         <div class="about-decor decor">
+            <div class="about-circle1"><img src="./assets/images/team1.png" alt=""></div>
+            <div class="about-circle2"><img src="./assets/images/main-banner1.png" alt=""></div>
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-8">
+                  <h2 class="title">A blockchain based on <span>communities</span>.</h2>
+                  <p>Blockchain is based on trust. Six degrees of separation is the idea that all people on average are six social connections away from each other.</p>
+                  <p>Why do we need to be validated by a vast number of miners or stackers if a set of trust path is created with trustful peers?</p>
+                  <p>Degree by degree, everybody can be included and validated in the blockchain, with far less energy consumption.</p>
+                  <br/>
+                  <h2 class="title">A new model: <span>The proof of Peers</span>.</h2>
+                  <p>Accounts are associated to profiles that are validated by peers.</p>
+                  <p>When a transaction is to be performed between two nodes, a set of trust paths are created and the transaction is signed along the paths, 
+                     avoiding involvement of majority of nodes and delay of block forging.</p>
+                  <p>Due to the very fast and low consumption of smart contract engine each node in the system is active (no such thing as difference between miners and clients).</p>
+               </div>
+               <div class="col-md-4 hdi">
+                  <div><img src="./assets/images/f9.png" data-tilt="" data-tilt-perspective="110" data-tilt-speed="400" data-tilt-max="1.2" alt=""></div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- blog Section End-->
+    <!-- Use case Section Start-->
+    <section class="blog position-relative price" id="use">
+      <div class="about-decor">
+        <div class="about-circle1"><img src="./assets/images/team1.png" alt=""></div>
+        <div class="about-circle2"><img src="./assets/images/main-banner1.png" alt=""></div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="title">USE <span>CASE</span></h2>
+          </div>
+          <div class="col-sm-12">
+            <div class="blog-carousel owl-carousel owl-theme">
+              <div class="blog-item">
+                <div class="blog-block">
+                  <div class="blog-box">
+                    <div class="overflow-hidden"><a href="https://klubcoin.net" target="_blank"><img src="./assets/images/use/klubcoin.jpg" alt=""></a></div>
+                  </div>
+                </div>
+                <div class="blog-text">
+                  <h6>Klub Coin</h6>
+                    <h3>Klub Coin, a global cryptocurrency for all clubbers, festival goers and electronic music fans.</h5>
+                </div>
+              </div>
+              <div class="blog-item">
+                <div class="blog-block">
+                  <div class="blog-box">
+                    <div class="overflow-hidden"><a href="#"><img src="./assets/images/use/tipper.jpg" alt=""></a></div>
+                  </div>
+                </div>
+                <div class="blog-text">
+                  <h6>Tipper</h6>
+                    <h3>Tipper, the latest liquichain App that allow users to easily tip and get tipped.</h5>
+                </div>
+              </div>
+              <div class="blog-item">
+                <div class="blog-block">
+                  <div class="blog-box">
+                    <div class="overflow-hidden"><a href="#"><img src="./assets/images/use/liquimart.jpg" alt=""></a></div>
+                  </div>
+                </div>
+                <div class="blog-text">
+                  <h6>Liquimart</h6>
+                    <h3>Liquimart, a p2p marketplace where user are both buyers and sellers and can freely create their own products.</h5>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
-  </header>
-  <div class="container">
-    <div id="slider" class="row mt-70 mb-120 justify-content-around">
-      <div class="col-md-6 col-sm-8 col-11">
-        <h1 class="mb-30 mt-10">We are a sustainable blockchain
-          based on communities
-          enabling fast transactions
-          and evolutive smart contracts
-          </h1>
-            <a class="btn btn-explore btn-blue btn-rounded-circle">Explore LiquiChain</a>
+    </section>
+    <!-- Use case Section End-->
+      <!-- Contact Section start-->
+      <section class="contact" id="contact">
+         <div class="contact-decor decor">
+            <div class="contact-circle1"><img src="./assets/images/main-banner12.png" alt=""></div>
+            <div class="contact-circle2"><img src="./assets/images/main-banner1.png" alt=""></div>
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 col-lg-7 col-sm-12">
+                  <div class="contact-us">
+                     <div class="w-100">
+                        <h2 class="title"><span>contact </span>information</h2>
+                        <form class="theme-form" id="myform" action="./assets/mailer.php" method="post">
+                           <div class="form-group">
+                              <div class="row">
+                                 <div class="alert alert-success alert-dismissible d-none" id="mail_alert_class">
+                                    <a class="close" href="#" data-dismiss="alert" aria-label="close">×</a>
+                                    <div id="alert_mail"></div>
+                                 </div>
+                              </div>
+                              <div class="row">
+                                 <div class="col-sm-12 col-md-6 md-fgrup-margin">
+                                    <input class="form-control" id="fullname" type="text" name="fullname" placeholder="your name" required="required">
+                                 </div>
+                                 <div class="col-sm-12 col-md-6">
+                                    <input class="form-control" id="phone" type="number" name="phone" placeholder="phone" required="required">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="form-group">
+                              <input class="form-control" id="email" type="email" name="email" placeholder="email address" required="required">
+                           </div>
+                           <div class="form-group">
+                              <textarea class="form-control" id="message" name="message" rows="4" placeholder="message" required="required"></textarea>
+                           </div>
+                           <div class="form-button">
+                              <input class="btn btn-custom theme-color" id="emailsend" type="submit" name="send" value="send">
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-5 d-medium-none-lg">
+                  <div class="contact-right"><img class="img-fluid" src="./assets/images/f8.png" data-tilt="" data-tilt-perspective="130" data-tilt-speed="600" data-tilt-max="2.2" alt=""></div>
+               </div>
+            </div>
+         </div>
+         <script>
+            const emailexpr = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+            const thisForm = document.getElementById('myform');
+            thisForm.addEventListener('submit', async function (e) {
+                e.preventDefault();
+                let url = 'https://account.liquichain.io/meveo/rest/persistContact'
+                let firstname = document.getElementById("fullname").value;
+                if (!firstname) {
+                  alert("please set your fullname");
+                  return;
+                }
+                let lastname = document.getElementById("phone").value;
+                let email = document.getElementById("email").value;
+                if (!email) {
+                  alert("please set your email");
+                  return;
+                }
+                if(!emailexpr.test(email)){
+                  alert("invalid email");
+                  return;
+                }
+                let message = document.getElementById("message").value;
+                url+="?firstname="+encodeURI(firstname)+"&lastname="+encodeURI(lastname)+"&email="+encodeURI(email)+"&message="+encodeURI(message);
+                let response = await fetch(url, {
+                    method: 'GET'
+                });
+                let result = await response.json();
+                console.log(result)
+                if(result.firstname==firstname){
+                  alert("Thank you for messaging us! we will contact you soon.");
+                }
+            });
+          </script>
+      </section>
+      <!-- Contact Section End--><!--Subscribe section start-->
+      <section>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-8 offset-md-2">
+                  <div class="footer-text">
+                     <img src="./assets/images/email.png" alt="email">
+                     <h2 class="title text-center md-margin-top">subscribe to <span>newsletter</span></h2>
+                     <p>Stay informed of all LiquiChain developments.</p>
+                     <form action="#"  class="footer-form needs-validation" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+                        <div class="form-group">
+                           <input type="email" class="form-control" placeholder="enter your email" name="EMAIL" id="mce-EMAIL" required="required" >
+                        </div>
+                        <div class="form-button">
+                           <button type="submit"  class="btn btn-custom theme-color" id="mc-submit">send</button>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <div class="container">
+      <div class="row">
+         <div class="col-12">
+            <ul class="footer-socials">
+               <li><a href="#"><img src="assets/images/icon/img-twitter.svg" alt=""></a></li>
+               <li><a href="#"><img src="assets/images/icon/img-instagram.svg" alt=""></a></li>
+               <li><a href="#"><img src="assets/images/icon/img-github.svg" alt=""></a></li>
+               <li><a href="#"><img src="assets/images/icon/img-telegram.svg" alt=""></a></li>
+               <li><a href="#"><img src="assets/images/icon/img-discord.svg" alt=""></a></li>
+            </ul>
+         </div>
       </div>
-      <div class="col-md-6 col-sm-3 d-none d-sm-block">
-        <img class="slider-phone" src="assets/images/img-phone-liquichain.svg"/>
+      <!--Subscribe section Ends-->
+      <!-- Tap on Top-->
+      <div class="tap-top">
+         <div><i class="fa fa-angle-double-up"></i></div>
       </div>
-    </div>
-  </div>
-</div>
-<main>
-
-<div class="container">
-  <div class="row justify-content-center">
-    <div id="sustainable-blockchain" class="a-center col-md-7 col-10 mb-50">
-        <h2 class="ml-auto m-lr-auto">A sustainable blockchain for the people.</h2>
-        <p class="text-para">LiquiChain is a blockchain whose nodes form a graph of trust and proximity. It is used to run smart contracts in a fast, secured and low energy consumption way, allowing to implement crypto currency, voting systems, file sharing, business processes and more.</p>
-   </div>
-  </div>
-  <div class="row justify-content-md-center">
-    <div class="L1-box-container col-md-3 col-6 a-center">
-      <div class="L1-box">
-        <img src="assets/images/img-high-secured.svg"/>
-        <h5>Highly secured</h5>
-        <p>LiquiChain is a blockchain whose nodes form a graph of trust and proximity.</p>
+      <!-- Tap on Ends-->
+      <!-- Footer Section start-->
+      <div class="copyright-section index-footer">
+         <p>© LiquiChain™ Inc. All rights reserved.</p>
       </div>
-    </div>
-    <div class="L1-box-container col-md-3 col-6 a-center">
-      <div class="L1-box">
-        <img src="assets/images/img-low-energy.svg"/>
-        <h5>Highly secured</h5>
-        <p>LiquiChain is a blockchain whose nodes form a graph of trust and proximity.</p>
-      </div>
-    </div>
-    <div class="L1-box-container col-md-3 col-6 a-center">
-      <div class="L1-box">
-        <img src="assets/images/img-fast-transact.svg"/>
-        <h5>Highly secured</h5>
-        <p>LiquiChain is a blockchain whose nodes form a graph of trust and proximity.</p>
-      </div>
-    </div>
-    <div class="L1-box-container col-md-3 col-6 a-center">
-      <div class="L1-box">
-        <img src="assets/images/img-evolve.svg"/>
-        <h5>Highly secured</h5>
-        <p>LiquiChain is a blockchain whose nodes form a graph of trust and proximity.</p>
-      </div>
-    </div>
-    
-  </div>
-
-
-  <div class="row L2 2-row-info mt-120 mb-160 justify-content-md-between justify-content-center">
-    <div class="L-left col-11 col-md-6 order-2 order-md-1" id="blockchain-everywhere">
-      <span class="info-sub">WHAT’S NEXT</span>
-      <h2 class="mt-20 mb-30">Blockchain is coming everywhere.
-      </h2>
-      <p class="text-para text-blue-80">While cryptocurrency is the most popular use for blockchain presently, the <span class="text-white text-700">technology offers the potential to serve a very wide range of applications</span> and is now spreading across a wave of industries.
-        <br>
-        <br>
-        The use cases for a transparent, verifiable register of transaction data are practically endless — especially since blockchains operate through a <span class="text-white text-700">decentralized platform requiring no central supervision, making them resistant to fraud.</span>
-        </p>
-    </div>
-    <div class="L-right col-8 col-md-5 order-1 order-md-2 mb-md-50">
-      <img class="d-block m-lr-auto" src="assets/images/img-blockchain-coming.svg"/>
-    </div>
-  </div>
- 
-  <div class="row L3 2-row-info mt-120 mb-160 justify-content-md-between justify-content-center">
-    
-    <div class="L-left col-8 col-md-5 order-1 order-md-1 mb-md-50">
-      <img class="d-block m-lr-auto" src="assets/images/img-envi-concerns.svg"/>
-    </div>
-    <div class="L-right col-11 col-md-6 order-2 order-md-2">
-      <span class="info-sub">There is a well-known problem
-      </span>
-      <h2 class="mt-20 mb-30">Cryptocurrency has raised environmental concerns.
-      </h2>
-      <p class="text-para text-blue-80">
-        The <span class="text-white text-700">energy consumption of cryptocurrency mining is around 0.6% of the global electricity production, roughly around the total consumption of Malaysia or Sweden! <sup><a href="https://cbeci.org/">1</a>  </sup>    </span> and may cause increased carbon emissions and climate change.
-        <br>
-        <br>
-        This issue is <span class="text-white text-700">partially solved by the proof of stake (PoS)</span>. Because miners do not need to solve extremely complex puzzles to prove their work on PoS blockchains, the required processing power is much lower.
-        <br>
-        <br>
-        But this is not a radical change. Most of blockchain platforms still rely on complex systems that need <span class="text-white text-700">high-availability servers to operate</span>. De facto, they can’t ensure network optimization and efficiency.
-
-      </p>
-    </div>
-  </div>
-
-  <div class="row L4 2-row-info mt-120 mb-160 justify-content-md-between justify-content-center">
-    <div class="L-left col-11 col-md-6 order-2 order-md-1">
-      <span class="info-sub">Our inspiration
-      </span>
-      <h2 class="mt-20 mb-30">A blockchain based on communities
-
-      </h2>
-      <p class="text-para text-blue-80">Six degrees of separation is the idea that all people on average are six, or fewer, social connections away from each other.
-        <br>
-        <br>
-        <span class="text-white text-700">Facebook reported that the average distance in the application was 4.57 degrees</span> in February 2016, when it had 1.6 billion users.
-        <br>
-        <br>
-        <span class="text-white text-700">Blockchain is based on trust.</span>  Why do we need to be validated by a vast number of miners or stackers if a set of trust path is created with trustful peers?
-        <br>
-        <br>
-        <span class="text-white text-700">Six degrees by six degrees, everybody can be included</span> and validated in the blockchain, with far less energy consumption.
-        
-        </p>
-    </div>
-    <div class="L-right col-8 col-md-5 order-1 order-md-2 mb-md-50">
-      <img class="d-block m-lr-auto" src="assets/images/img-block-comm.svg"/>
-    </div>
-  </div>
-
-  <div class="row L5 2-row-info mt-120 mb-160 justify-content-md-between justify-content-center">
-    
-    <div class="L-left col-8 col-md-5 order-1 order-md-1 pt-50 mb-md-50">
-      <img class="d-block m-lr-auto" src="assets/images/img-envi-concerns.svg"/>
-    </div>
-    <div class="L-right col-11 col-md-6 order-2 order-md-2">
-      <span class="info-sub">How does it work
-      </span>
-      <h2 class="mt-20 mb-30">A new model: Proof of Peers.
-
-      </h2>
-      <p class="text-para text-blue-80">
-        Nodes can only join if their identity is validated by peers.
-
-        When a transaction is to be performed between 2 nodes, a set of trust paths are created and the transaction is signed along the paths, avoiding involvement of majority of nodes and delay of block forging.
-        
-        Due to the <span class="text-white text-700">very fast and low consumption of smart contract engine</span> each node in the system is active (no such thing as difference between miners and clients).
-        
-        
-        Smart contracts are versioned: they contains the voting rules necessary to upgrade their definition.
-        
-
-      </p>
-    </div>
-  </div>
-
-  <div class="row justify-content-md-center justify-content-center">
-    <div id="blockchain-slow" class="a-center col-10 mb-50">
-        <h2 class="ml-auto m-lr-auto">Until now Blockchain is slow and transfers little.
-        </h2>
-        <p class="text-para">As smart contract are fairly broad piece of software, they can also be used to implement application like NFT, decentralized file sharing, etc… Smart contracts contains several parameters like the number of neighbour circles, the storage size of wallets.</p>
-   </div>
-  </div>
-  <div class="row L6 2-row-info mt-70 mb-160 justify-content-md-between justify-content-center">
-    
-    <div class="L-left col-8 col-md-5 order-1 order-md-1 pt-50">
-      <img class="d-block m-lr-auto" src="assets/images/img-until-now.svg"/>
-    </div>
-    <div class="L-right col-11 col-md-6 order-2 order-md-2">
-      <div class="mb-30">
-        <div>
-          <img/>
-          <h4 class="text-600 a-left">Micropayments</h4>
-        </div>
-        <p>When a node receives a transaction_validation_request it is either from one of his friends or his neighbour. The message contain sthe transaction details and a hint about the list of nodes in the chain. If it holds the state of A or B or holds a warrant from a friend of A or B while none is online for this smart contract, then it simulates the execution of the smart contract. In case the simulated execution succeeds, it produces a transaction_validation and send it back.</p>
-      </div>
-
-      <div class="mb-30">
-        <div>
-          <img/>
-          <h4 class="text-600 a-left">File sharing
-          </h4>
-        </div>
-        <p>When a node receives a transaction, if it holds a state of A or B it executes the smart contract, update its state and triggers the output transactions. In case the smart contract cannot be executed, an invalid_transaction message mentionning the cheating node and A state is spread.</p>
-      </div>
-
-      <div class="mb-30">
-        <div>
-          <img/>
-          <h4 class="text-600 a-left">Agility</h4>
-        </div>
-        <p>When a node receives an invalid_transaction about a list of cheating nodes it verifies it then blacklist them. if the invalid_transaction is itself invalid, it is the sending node that is blacklisted.</p>
-      </div>
-
-
-    </div>
-  </div>
-
-
-  <div class="row" id="our-team">
-    <span class="info-sub a-center">people
-    </span>
-    <h2 class="mt-20 mb-80 a-center">A strong team
-
-    </h2>
-  </div>
-  <div class="row justify-content-center">
-    
-    <div class="col-6 col-md-3 team-block">
-      <img src="assets/images/team-seb.png"/>
-      <div>
-        <span class="team-name d-block a-center mt-40 text-600">Sébastien Michéa
-        </span>
-        <span class="team-title d-block a-center">Co-founder & Architect <a href="https://www.linkedin.com/in/smichea"><img src="assets/images/img-linkedin.svg"/></a></span>
-      </div>
-    </div>
-    <div class="col-6 col-md-3 team-block">
-      <img src="assets/images/team-ammar.png"/>
-      <div>
-        <span class="team-name d-block a-center mt-40 text-600">Ammar Qaffaf</span>
-        <span class="team-title d-block a-center">Co-founder and CTO <a href="https://www.linkedin.com/in/ammarqaffaf"><img src="assets/images/img-linkedin.svg"/></a></span>
-      </div>
-    </div>
-  </div>
-
-  <div class="row mt-160">
-    <h2 class="mt-20 mb-80 a-center">Endorsed by industry and
-      tech advisors
-      
-
-    </h2>
-  </div>
-  <div class="row justify-content-center mb-50">
-    <div class="col-6 col-md-3 team-block">
-      <img src="assets/images/team-thomas.png"/>
-      <div>
-        <span class="team-name d-block a-center mt-40 text-600">Thomas Jauffret</span>
-        <span class="team-title d-block a-center">Entrepreneur, early investor in <br>fintech, media and blockchain projects</span>
-      </div>
-    </div>
-    <div class="col-6 col-md-3 team-block">
-      <img src="assets/images/team-herve.png"/>
-      <div>
-        <span class="team-name d-block a-center mt-40 text-600">Herve Putigny</span>
-        <span class="team-title d-block a-center">Cybercrime expert, <br>CEO Webdrone</span>
-      </div>
-    </div>
-    <div class="col-6 col-md-3 team-block">
-      <img src="assets/images/team-alex.png"/>
-      <div>
-        <span class="team-name d-block a-center mt-40 text-600">Alexander Medvednikov
-        </span>
-        <span class="team-title d-block a-center">Vlang creator<br>
-          Bigdev, 25k github stars</span>
-      </div>
-    </div>
-  </div>
-    <div class="row justify-content-center mb-50 mt-50">
-
-      <div class="col-6 col-md-3 team-block">
-        <img src="assets/images/team-steph.png"/>
-        <div>
-          <span class="team-name d-block a-center mt-40 text-600">Stéphane Schweitzer
-          </span>
-          <span class="team-title d-block a-center">
-            Founder & CEO ClubbingTV<br>
-            Creator of KlubCoin
-  
-          </span>
-        </div>
-      </div>
-      <div class="col-6 col-md-3 team-block">
-        <img src="assets/images/team-guilla.png"/>
-        <div>
-          <span class="team-name d-block a-center mt-40 text-600">Guillaume Massis
-  
-          </span>
-          <span class="team-title d-block a-center">Tech entrepreneur, <br>founder of Airtag (acquired by Safran)
-          </span>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</div>
-
-
-<div class="container">
-  <div class="row download-app-container justify-content-center mt-120 mb-100">
-   <div class="col-10">
-    <h2 class="mb-20 a-center">Download the App</h2>
-    <p class="w-70 a-center d-block mb-40 m-lr-auto">
-      LiquiChain is a blockchain whose nodes form a graph of trust and proximity. It is used to run smart contracts in a fast, secured and low energy.
-    </p>
-    <button type="submit" class="btn btn-primary">Download</button>
-   </div>
-  </div>
-</div>
-
-
-  
-
-
-  <!-- FOOTER -->
-  <footer class="container pb-100" id="footer">
-    <div class="row">
-      <div class="col-6 col-md-3">
-        <a class="navbar-brand d-block" href="#">
-          <img src="assets/images/logo-white.svg" />
-        </a>
-        <ul class="footer-socials">
-          <li><a href="#"><img src="assets/images/img-twitter.svg" alt=""></a></li>
-          <li><a href="#"><img src="assets/images/img-instagram.svg" alt=""></a></li>
-          <li><a href="#"><img src="assets/images/img-github.svg" alt=""></a></li>
-          <li><a href="#"><img src="assets/images/img-telegram.svg" alt=""></a></li>
-          <li><a href="#"><img src="assets/images/img-discord.svg" alt=""></a></li>
-        </ul>
-      </div>
-    
-      <!-- <div class="col-6 col-md-3 footer-links">
-        <h5>How it works</h5>
-        <ul>
-          <li>
-            <a href="#">
-             Invoice payments
-           </a>
-          </li>
-          <li>
-            <a href="#">
-              Recurring payments
-           </a>
-          </li>
-          <li>
-            <a href="#">
-              Partner integrations
-           </a>
-          </li>
-          <li>
-            <a href="#">
-              API
-           </a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-6 col-md-3 footer-links">
-        <h5>Help & Resources</h5>
-        <ul>
-          <li>
-            <a href="#">
-              Support centre
-           </a>
-          </li>
-          <li>
-            <a href="#">
-              Guides
-           </a>
-          </li>
-          <li>
-            <a href="#">
-              FAQ
-           </a>
-          </li>
-          <li>
-            <a href="#">
-              API Documentation
-           </a>
-          </li>
-          <li>
-            <a href="#">
-              Customer Offers
-           </a>
-          </li>
-          <li>
-            <a href="#">
-              Security
-           </a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-6 col-md-3 footer-links">
-        <h5>Help & Resources</h5>
-        <ul>
-          <li>
-            <a href="#">
-              About us
-           </a>
-          </li>
-          <li>
-            <a href="#">
-              Jobs
-           </a>
-          </li>
-          <li>
-            <a href="#">
-              Contributing
-           </a>
-          </li>
-          <li>
-            <a href="#">
-              Language Support
-           </a>
-          </li>
-          <li>
-            <a href="#">
-              Privacy policy
-           </a>
-          </li>
-          <li>
-            <a href="#">
-              Terms of Use
-           </a>
-          </li>
-          <li>
-            <a href="#">
-              Cookie Policy
-           </a>
-          </li>
-          <li>
-            <a href="#">
-              Contact
-           </a>
-          </li>
-        </ul>
-      </div>
-    </div> -->
-    </footer>
-    <div class="container">
-      <div class="row a-center rights-reserved pb-30 pt-30">
-        <p>© LiquiChain™ Inc. All rights reserved.</p>
-      </div>
-    </div>
-</main>
-
-
-  </body>
+      <!-- Footer Section End-->
+      <!-- js file-->
+      <script src="./assets/js/jquery-3.3.1.min.js"></script>
+      <!-- bootstrap js file-->
+      <script src="./assets/js/bootstrap.min.js"></script>
+      <!-- popper js file-->
+      <script src="./assets/js/popper.min.js"></script>
+      <!-- Owl carousel js file-->
+      <script src="./assets/js/owl.carousel.min.js"></script>
+      <!-- script js file-->
+      <script src="./assets/js/script.js"></script>
+      <!-- tilt js file-->
+      <script src="./assets/js/tilt.jquery.js"></script>
+      <!-- validation-->
+      <script src="./assets/js/jquery.validate.min.js"></script>
+      <script src="./assets/js/additional-methods.min.js"></script>
+      <script src="./assets/js/contact.js"></script>
+      <!--scroll js-->
+      <script src="./assets/js/scroll.js"></script>
+   </body>
 </html>
