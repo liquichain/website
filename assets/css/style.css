@@ -3325,3 +3325,7 @@ h2 span {
 .footer-socials li img:hover {
 	filter: brightness(80%);
 }
+
+.hide{
+   display:none;	
+}
